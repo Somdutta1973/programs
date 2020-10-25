@@ -33,7 +33,7 @@ p->rear = -1;
 printf("The element is needed:");
 }
 }
-void display(queue *p)
+void display(queue *p)//method for displaying the output
 {
 if(p->front == -1)
 printf("The queue is empty");
