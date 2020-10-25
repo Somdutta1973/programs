@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #define MAX 10
-typedef struct {
+typedef struct { //creating a structure
 int q[MAX];
 int front;
 int rear;
