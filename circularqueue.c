@@ -57,7 +57,7 @@ while(1)
 {
 printf("\n Enter the choice:");
 scanf("%d",&ch);
-switch(ch)
+switch(ch)// starting of switch case
 {
 case 1:
 printf("Enter the element to be entered :\n");
