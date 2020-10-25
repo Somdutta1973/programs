@@ -19,7 +19,7 @@ p->front = (p->front - 1 + MAX) % MAX;
 printf("The Item added is: ", key);
 }
 }
-void dequeue(queue *p, int key)
+void dequeue(queue *p, int key)// method for dequeue
 {
 if(p->front == -1)
 printf("Queue is Empty.");
